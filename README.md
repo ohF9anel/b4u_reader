@@ -7,8 +7,8 @@ Many B4U files can be downloaded from http://www.byki.com/listcentral.html.
 
 Usage
 ------------
-    import read
-    d = read.Deck('verbos.b4u')
-    d.html('output')
+    python readb4u.py [filename]
 
-will read the file `verbos.b4u` and create a HTML representation, with separate .OGG and .JPEG files as needed, in the folder `output`
+will read the file [filename] and create a KVTML (Parley) representation, with separate .OGG (sound) and .JPEG (image) files as available in the original .b4u file, in the folder `output`, with the name `cards.kvtml`.
+
+To create HTML file look in the python code (last lines). 
